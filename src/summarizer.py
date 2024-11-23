@@ -13,7 +13,7 @@ def clean_and_extract_content(text):
     
     # Extract relevant content
     cleaned_text = extractor(prompt.format(text=text[:1024]), 
-                           max_length=512, 
+                           max_length=1024, 
                            min_length=100)[0]['generated_text']
     
     return cleaned_text
