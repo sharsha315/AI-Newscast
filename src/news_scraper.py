@@ -15,8 +15,7 @@ async def scrape_news_content(urls):
 async def test_scraping():
     test_urls = [
         "https://hbr.org/2024/11/generative-ai-is-still-just-a-prediction-machine",
-        "https://www.technologyreview.com/2024/02/21/1088984/openai-q-star-artificial-general-intelligence/",
-        "https://www.wired.com/story/ai-artificial-intelligence-medicine-health-care/"
+
     ]
     
     contents = await scrape_news_content(test_urls)
