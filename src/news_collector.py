@@ -1,7 +1,7 @@
 from langchain_community.tools import DuckDuckGoSearchResults
 import json
 
-def fetch_tech_news_urls(query="latest news articles on  Generative AI, Artificial Intelligence and LLMs", num_results=3):
+def fetch_tech_news_urls(query="latest news articles on  Generative AI", num_results=3):
     # Initialize search with JSON output format
     search = DuckDuckGoSearchResults(num_results=num_results, output_format="json")
     
